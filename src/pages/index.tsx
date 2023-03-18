@@ -17,7 +17,6 @@ export default function Home() {
       <Box position="absolute" h="100vh" color='black'>
         <ParticlesItens />
       </Box>
-
       <ToggleTheme position="absolute" aria-label="Toggle theme" margin={5} />
       <Box
         h="100vh"
@@ -33,7 +32,7 @@ export default function Home() {
           position="absolute"
         >
           <GridItem
-            bgGradient={isLight ? "linear(to-r, white, gray.400 )" : "linear(to-r, #000000, #434343)"}
+            bgGradient={isLight ? "linear(to-r, white, gray.400 )" : "linear(to-r, #434343, #000000)"}
             color="white"
             py={{ base: 10, md: "10rem" }}
             px={{ base: 5, md: 20 }}
